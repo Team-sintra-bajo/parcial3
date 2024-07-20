@@ -43,7 +43,6 @@ const App = () => {
                 style={{ backgroundImage: `url(${backgroundImage})` }}
             ></div>
             <header className="header-bar">
-                <img src="img/logo.png" alt="Logo" className="header-logo" />
             </header>
             <div className="container">
                 {isTabletOrMobile && (
